@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	<definition name="login" template="/WEB-INF/views/login.jsp">
+		<put-attribute name="title" value="Login" />
+
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/footer.jsp" />
+	</definition>
+
+
+	<definition name="main" template="/WEB-INF/views/main.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+<!-- 		<put-attribute name="menu" value="/WEB-INF/views/menu.jsp" /> -->
+		<put-attribute name="body" value="/WEB-INF/views/home.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/footer.jsp" />
+	</definition>
+	<definition name="history" template="/WEB-INF/views/main.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+<!-- 		<put-attribute name="menu" value="/WEB-INF/views/menu.jsp" /> -->
+		<put-attribute name="body" value="/WEB-INF/views/push.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/footer.jsp" />
+	</definition>
+	<definition name="composePush" template="/WEB-INF/views/main.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+<!-- 		<put-attribute name="menu" value="/WEB-INF/views/menu.jsp" /> -->
+		<put-attribute name="body" value="/WEB-INF/views/composePush.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/footer.jsp" />
+	</definition>
+	<definition name="subscription" template="/WEB-INF/views/main.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+<!-- 		<put-attribute name="menu" value="/WEB-INF/views/menu.jsp" /> -->
+		<put-attribute name="body"
+			value="/WEB-INF/views/subscriptionStats.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/footer.jsp" />
+	</definition>
+	<definition name="push" template="/WEB-INF/views/main.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+<!-- 		<put-attribute name="menu" value="/WEB-INF/views/menu.jsp" /> -->
+		<put-attribute name="body"
+			value="/WEB-INF/views/pushStats.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/footer.jsp" />
+	</definition>
+	<definition name="session" template="/WEB-INF/views/main.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+<!-- 		<put-attribute name="menu" value="/WEB-INF/views/menu.jsp" /> -->
+		<put-attribute name="body"
+			value="/WEB-INF/views/sessionStats.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/footer.jsp" />
+	</definition>
+	<definition name="install" template="/WEB-INF/views/main.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+<!-- 		<put-attribute name="menu" value="/WEB-INF/views/menu.jsp" /> -->
+		<put-attribute name="body"
+			value="/WEB-INF/views/installStats.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/footer.jsp" />
+	</definition>
+	<definition name="launch" template="/WEB-INF/views/main.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/WEB-INF/views/header.jsp" />
+<!-- 		<put-attribute name="menu" value="/WEB-INF/views/menu.jsp" /> -->
+		<put-attribute name="body"
+			value="/WEB-INF/views/launchStats.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/views/footer.jsp" />
+	</definition>
+
+</tiles-definitions>

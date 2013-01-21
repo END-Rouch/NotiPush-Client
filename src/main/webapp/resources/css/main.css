@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+
+#logo {
+  background-image:url(../images/logo.png);
+  background-repeat:no-repeat no-repeat;
+  display:inline-block;
+  height:84px;
+  margin:20px 20px 20px 0;
+  text-indent:-9999px;
+  width:198px;
+}

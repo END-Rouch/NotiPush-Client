@@ -1,0 +1,34 @@
+@media only screen and (max-width: 950px) {
+
+	
+	
+/**
+ * General layout
+ */
+
+header .inner, #infos .inner, #main > .inner { padding:0 10px; width:auto; }
+#main > .inner { width:auto; }
+#activities { width:auto; float:none; margin-right:0;}
+#activities li { display:inline-block; }
+#activity-detail { width:auto; float:none; margin-top:50px;}
+
+/**
+ * Activities list
+ */
+#activities { box-shadow: none;  }
+#activities ul { box-shadow: none; border:1px solid #E5E5E5; }
+#activities.being-magnetized { position:static; }
+#activities ul li:first-child a  { border-radius:0 ; }
+#activities ul li:last-child  a { border-radius:0; }
+
+/**
+ * Toolbar
+ */
+.toolbar { top: 0px; width: 193px; padding: 5px; float: right; }
+.toolbar .when-dirty { display:none; }
+.toolbar { transition: border-color 500ms linear;  }
+.toolbar.being-magnetized.highlighted { border-color:red; border-top-color: #E5E5E5 }
+.toolbar.highlighted { border-color:red;  }
+
+
+
